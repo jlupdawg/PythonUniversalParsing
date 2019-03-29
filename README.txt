@@ -1,0 +1,2 @@
+This code will parse a string that is seperated by some delimeter (typically a comma) and turn it into two lists. The first list is one that contains all of the string values, the second list is one that contains all of the numerical values.
+- Joseph Lupton
