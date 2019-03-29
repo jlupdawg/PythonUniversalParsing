@@ -1,9 +1,9 @@
 #This code takes user input and splits it into a list of strings and a list of integers.
 #Use a comma (',') as the delimiter
 
-stringInput = input()                           #input a string of seperated by a delimeter like "Hello,793.5, World,78"
+stringInput = input()                           #input a string of seperated by a delimiter like "Hello,793.5, World,78"
 print("You input: " + stringInput)
-stringArray = stringInput.split(',')            #change the delimeter here if you need to
+stringArray = stringInput.split(',')            #change the delimiter here if you need to
 numberArray = []                                #iniitalize the number array
 
 def is_float(s):                                #function for determining if the input is a float

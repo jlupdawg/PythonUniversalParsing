@@ -1,4 +1,4 @@
-def parseStrings(stringInput, delimiter):               #inputs are the string and the delimeter
+def parseStrings(stringInput, delimiter):               #inputs are the string and the delimiter
     stringArray = stringInput.split(delimiter)          #split the string at every delimter and make it into a list
     numberArray = []                                    #initialize an empty number array
 
